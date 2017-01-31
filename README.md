@@ -22,5 +22,15 @@ $ ls -l /usr/local/share/fonts/
 
  # fc-cache -fv
 
+3) Install packages, for instance in Debian:
 
+ # aptitude install conky conky-all
+
+4) Copy configuration file to your home directory 
+
+ $ cp conky-vertical-with-icons.rc ~/.conkyrc
+
+5) Start conky, by cli and then auto start if you want.
+
+ 
 
