@@ -3,6 +3,7 @@ conky configurations and customizations
 This is a fistful of configurations for conky. Share your one too!
 
 This is a vertical running config for conky. For 'icons' it uses a set of fonts:
+An snapshot can be seen here: https://2.bp.blogspot.com/-MhF7kxOP7I8/WJEQikSkwbI/AAAAAAAAB_c/Tm4vFOrhaxUNMFx_E3PKLAVJ7YUrEPoPwCLcB/s1600/conky-vertical-icons-graphs.png
 
 Open Logos: www.dafont.com/es/openlogos.fonttotal 
 Pizza Dude Bullets: http://www.dafont.com/es/pizzadude-bullets.font
@@ -33,4 +34,4 @@ $ ls -l /usr/local/share/fonts/
 5) Start conky, by cli and then auto start if you want.
 
  
-
+For integrating conky with KDE Plasma see this article (spanish): http://www.equiscentrico.com.ar/2017/01/conky-se-integra-cada-vez-mejor-con-kde.html
