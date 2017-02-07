@@ -33,11 +33,13 @@ conky.text = [[
 
  ${color ffffff}${font StyleBats:size=16}A${font}  CPU0: ${cpu cpu0}% ${cpubar cpu0}
  ${font StyleBats:size=16}A${font}  CPU1: ${cpu cpu1}% ${cpubar cpu1}
+ ${font}${color 014A7F}      top: ${top name 1}${top cpu 1}%
  ${color ffffff}${font StyleBats:size=16}L ${font}${color} Temp: ${execi 30 sensors | grep 'CPU Temp' | cut -d: -f2 | sed -e 's/(.*$//' | sed -e 's/ //g'} fan: ${execi 60 sensors | grep 'CPU FAN' | cut -d: -f2 | sed -e 's/(.*$//' | sed -e 's/ //g' | sed -e 's/RPM/ rpm/'}
  ${color 014A7F}${font PizzaDude Bullets:size=16}J${font} RAM ${color}$mem/$memmax 
  $memperc% ${membar 4}
  ${color 014A7F}Swap:$color $swap/$swapmax 
  ${color 014A7F}$swapperc% ${swapbar 4}
+ ${font}       top:  ${top_mem name 1}${top_mem mem 1}%
  ${color 014A7F}$hr 
  ${color 014A7F}${font StyleBats:size=16}J${font}  File Systems usage:
 
