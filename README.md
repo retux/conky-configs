@@ -25,7 +25,7 @@ $ ls -l /usr/local/share/fonts/
 
 3) Install packages, for instance in Debian:
 
- # aptitude install conky conky-all
+ # aptitude install conky conky-all lm-sensors
 
 4) Copy configuration file to your home directory 
 
