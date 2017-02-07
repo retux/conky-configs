@@ -1,4 +1,5 @@
 *.zip
 *.ttf
 *.tar*
+.conkyrc
 

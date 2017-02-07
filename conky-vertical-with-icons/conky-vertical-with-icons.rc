@@ -41,13 +41,13 @@ conky.text = [[
  ${color 014A7F}$hr 
  ${color 014A7F}${font StyleBats:size=16}J${font}  File Systems usage:
 
- ${color 014A7F}/ ${fs_used /}/${fs_size /} ${color}${fs_bar 6 /}   
- ${color 014A7F}/home${fs_used /home}/${fs_size /home}${color} ${fs_bar 6 /home}   
+ ${color 014A7F}${font}/ ${fs_used /}/${fs_size /} ${color}${fs_bar 6 /}   
+ ${color 014A7F}/home ${font}${fs_used /home}/${fs_size /home}${color} ${fs_bar 6 /home}   
  SSD ${diskiograph /dev/sda 11,120 555555 AAAAAA -l} ${diskio /dev/sda} 
  HD  ${diskiograph /dev/sdb 11,120 555555 AAAAAA -l} ${diskio /dev/sdb}
  ${color 014A7F}$hr 
- ${color}${font PizzaDude Bullets:size=16}v${font}   Up: ${upspeed enp2s0}Kb/s  Total: ${totalup enp2s0}
- ${font PizzaDude Bullets:size=16}r${font}   Down: ${downspeed enp2s0}Kb/s Total: ${totaldown enp2s0}
+ ${color}${font PizzaDude Bullets:size=16}v${font} Up:${font} ${upspeed enp2s0} Tot: ${totalup enp2s0}
+ ${font PizzaDude Bullets:size=16}r${font} Dn: ${downspeed enp2s0} Tot: ${totaldown enp2s0}
 
  ${font StyleBats:size=18}P${font}   Uptime:  ${uptime_short}
             ${color 014A7F}${font Radio Space:size=7}${time %A %d %Y %H:%M}
